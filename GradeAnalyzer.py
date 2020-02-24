@@ -30,7 +30,7 @@ elif sDrop == "Y" or sDrop == "Yes" or sDrop == "y" or sDrop == "yes":
     else: fAverage = (iScore1 + iScore2 + iScore3)/3
 else: exit(print("Please choose Yes or No."))
 
-if fAverage >= 97:
+if fAverage >= 97 and fAverage <= 100:
     sGrade = "A+"
 elif fAverage >= 94:
     sGrade = "A"
